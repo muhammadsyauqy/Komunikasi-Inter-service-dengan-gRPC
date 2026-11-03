@@ -1,0 +1,3 @@
+Pada praktikum ini, terdapat perbedaan penggunaan file .proto antara Go dan Python dengan Node.js. Go dan Python menggunakan Static Code Generation, yaitu file .proto harus diubah menjadi kode terlebih dahulu sebelum program dijalankan. Kode tersebut kemudian digunakan untuk menjalankan komunikasi antara server dan client. 
+
+Sedangkan Node.js menggunakan Dynamic Runtime Generation, yaitu file .proto dapat dibaca langsung saat program dijalankan dengan bantuan library @grpc/proto-loader, tanpa perlu membuat kode tambahan terlebih dahulu. Jadi, Go dan Python perlu melakukan proses pembuatan kode di awal, sedangkan Node.js dapat langsung membaca file .proto ketika program berjalan.
